@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7ADA70B225B39E7000DE402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA70A225B39E7000DE402 /* AppDelegate.m */; };
+		F7ADA70E225B39E7000DE402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA70D225B39E7000DE402 /* ViewController.m */; };
+		F7ADA711225B39E7000DE402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADA70F225B39E7000DE402 /* Main.storyboard */; };
+		F7ADA713225B39E8000DE402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ADA712225B39E8000DE402 /* Assets.xcassets */; };
+		F7ADA716225B39E8000DE402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADA714225B39E8000DE402 /* LaunchScreen.storyboard */; };
+		F7ADA719225B39E8000DE402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA718225B39E8000DE402 /* main.m */; };
+		F7ADA749225B3AA2000DE402 /* UIAlertController+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA722225B3AA1000DE402 /* UIAlertController+HBExtension.m */; };
+		F7ADA74A225B3AA2000DE402 /* UIImage+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA725225B3AA1000DE402 /* UIImage+HBExtension.m */; };
+		F7ADA74B225B3AA2000DE402 /* UIButton+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA726225B3AA1000DE402 /* UIButton+HBExtension.m */; };
+		F7ADA74C225B3AA2000DE402 /* NSString+HBPinyinString.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA728225B3AA1000DE402 /* NSString+HBPinyinString.m */; };
+		F7ADA74D225B3AA2000DE402 /* UIScrollView+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA72B225B3AA1000DE402 /* UIScrollView+HBExtension.m */; };
+		F7ADA74E225B3AA2000DE402 /* UIColor+HBColorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA72D225B3AA1000DE402 /* UIColor+HBColorExtension.m */; };
+		F7ADA74F225B3AA2000DE402 /* NSMutableAttributedString+HBExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA72E225B3AA1000DE402 /* NSMutableAttributedString+HBExtention.m */; };
+		F7ADA750225B3AA2000DE402 /* UIView+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA72F225B3AA1000DE402 /* UIView+HBExtension.m */; };
+		F7ADA751225B3AA2000DE402 /* NSDate+HBDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA731225B3AA1000DE402 /* NSDate+HBDateExtension.m */; };
+		F7ADA752225B3AA2000DE402 /* HBDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA734225B3AA1000DE402 /* HBDateModel.m */; };
+		F7ADA753225B3AA2000DE402 /* HBAttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA738225B3AA1000DE402 /* HBAttributedLabelAttachment.m */; };
+		F7ADA754225B3AA2000DE402 /* HBAttributedLabelURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA73A225B3AA1000DE402 /* HBAttributedLabelURL.m */; };
+		F7ADA755225B3AA2000DE402 /* HBAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA73B225B3AA1000DE402 /* HBAttributedLabel.m */; };
+		F7ADA756225B3AA2000DE402 /* HBUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA740225B3AA1000DE402 /* HBUIButton.m */; };
+		F7ADA757225B3AA2000DE402 /* HBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA741225B3AA1000DE402 /* HBButton.m */; };
+		F7ADA758225B3AA2000DE402 /* HBSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA746225B3AA1000DE402 /* HBSnapShot.m */; };
+		F7ADA759225B3AA2000DE402 /* HBSnapShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ADA747225B3AA1000DE402 /* HBSnapShotView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7ADA706225B39E7000DE402 /* HBToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ADA709225B39E7000DE402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7ADA70A225B39E7000DE402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7ADA70C225B39E7000DE402 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7ADA70D225B39E7000DE402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7ADA710225B39E7000DE402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7ADA712225B39E8000DE402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ADA715225B39E8000DE402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7ADA717225B39E8000DE402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ADA718225B39E8000DE402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7ADA721225B3AA1000DE402 /* UIScrollView+HBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HBExtension.h"; sourceTree = "<group>"; };
+		F7ADA722225B3AA1000DE402 /* UIAlertController+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+HBExtension.m"; sourceTree = "<group>"; };
+		F7ADA723225B3AA1000DE402 /* NSMutableAttributedString+HBExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+HBExtention.h"; sourceTree = "<group>"; };
+		F7ADA724225B3AA1000DE402 /* UIColor+HBColorExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBColorExtension.h"; sourceTree = "<group>"; };
+		F7ADA725225B3AA1000DE402 /* UIImage+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HBExtension.m"; sourceTree = "<group>"; };
+		F7ADA726225B3AA1000DE402 /* UIButton+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HBExtension.m"; sourceTree = "<group>"; };
+		F7ADA727225B3AA1000DE402 /* UIView+HBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HBExtension.h"; sourceTree = "<group>"; };
+		F7ADA728225B3AA1000DE402 /* NSString+HBPinyinString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HBPinyinString.m"; sourceTree = "<group>"; };
+		F7ADA729225B3AA1000DE402 /* NSDate+HBDateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HBDateExtension.h"; sourceTree = "<group>"; };
+		F7ADA72A225B3AA1000DE402 /* UIAlertController+HBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+HBExtension.h"; sourceTree = "<group>"; };
+		F7ADA72B225B3AA1000DE402 /* UIScrollView+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HBExtension.m"; sourceTree = "<group>"; };
+		F7ADA72C225B3AA1000DE402 /* UIImage+HBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HBExtension.h"; sourceTree = "<group>"; };
+		F7ADA72D225B3AA1000DE402 /* UIColor+HBColorExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBColorExtension.m"; sourceTree = "<group>"; };
+		F7ADA72E225B3AA1000DE402 /* NSMutableAttributedString+HBExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+HBExtention.m"; sourceTree = "<group>"; };
+		F7ADA72F225B3AA1000DE402 /* UIView+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBExtension.m"; sourceTree = "<group>"; };
+		F7ADA730225B3AA1000DE402 /* UIButton+HBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HBExtension.h"; sourceTree = "<group>"; };
+		F7ADA731225B3AA1000DE402 /* NSDate+HBDateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HBDateExtension.m"; sourceTree = "<group>"; };
+		F7ADA732225B3AA1000DE402 /* NSString+HBPinyinString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HBPinyinString.h"; sourceTree = "<group>"; };
+		F7ADA734225B3AA1000DE402 /* HBDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBDateModel.m; sourceTree = "<group>"; };
+		F7ADA736225B3AA1000DE402 /* HBAttributedLabelDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAttributedLabelDefines.h; sourceTree = "<group>"; };
+		F7ADA737225B3AA1000DE402 /* HBAttributedLabelURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAttributedLabelURL.h; sourceTree = "<group>"; };
+		F7ADA738225B3AA1000DE402 /* HBAttributedLabelAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAttributedLabelAttachment.m; sourceTree = "<group>"; };
+		F7ADA739225B3AA1000DE402 /* HBAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAttributedLabel.h; sourceTree = "<group>"; };
+		F7ADA73A225B3AA1000DE402 /* HBAttributedLabelURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAttributedLabelURL.m; sourceTree = "<group>"; };
+		F7ADA73B225B3AA1000DE402 /* HBAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAttributedLabel.m; sourceTree = "<group>"; };
+		F7ADA73C225B3AA1000DE402 /* HBAttributedLabelAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAttributedLabelAttachment.h; sourceTree = "<group>"; };
+		F7ADA73E225B3AA1000DE402 /* HBUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUIButton.h; sourceTree = "<group>"; };
+		F7ADA73F225B3AA1000DE402 /* HBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBButton.h; sourceTree = "<group>"; };
+		F7ADA740225B3AA1000DE402 /* HBUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUIButton.m; sourceTree = "<group>"; };
+		F7ADA741225B3AA1000DE402 /* HBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBButton.m; sourceTree = "<group>"; };
+		F7ADA742225B3AA1000DE402 /* HBDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBDateModel.h; sourceTree = "<group>"; };
+		F7ADA744225B3AA1000DE402 /* HBSnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSnapShot.h; sourceTree = "<group>"; };
+		F7ADA745225B3AA1000DE402 /* HBSnapShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSnapShotView.h; sourceTree = "<group>"; };
+		F7ADA746225B3AA1000DE402 /* HBSnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSnapShot.m; sourceTree = "<group>"; };
+		F7ADA747225B3AA1000DE402 /* HBSnapShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSnapShotView.m; sourceTree = "<group>"; };
+		F7ADA748225B3AA1000DE402 /* HBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ADA703225B39E7000DE402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7ADA6FD225B39E7000DE402 = {
+			isa = PBXGroup;
+			children = (
+				F7ADA708225B39E7000DE402 /* HBToolBox */,
+				F7ADA707225B39E7000DE402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ADA707225B39E7000DE402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA706225B39E7000DE402 /* HBToolBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ADA708225B39E7000DE402 /* HBToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA71F225B3AA1000DE402 /* HBToolBoxLibs */,
+				F7ADA709225B39E7000DE402 /* AppDelegate.h */,
+				F7ADA70A225B39E7000DE402 /* AppDelegate.m */,
+				F7ADA70C225B39E7000DE402 /* ViewController.h */,
+				F7ADA70D225B39E7000DE402 /* ViewController.m */,
+				F7ADA70F225B39E7000DE402 /* Main.storyboard */,
+				F7ADA712225B39E8000DE402 /* Assets.xcassets */,
+				F7ADA714225B39E8000DE402 /* LaunchScreen.storyboard */,
+				F7ADA717225B39E8000DE402 /* Info.plist */,
+				F7ADA718225B39E8000DE402 /* main.m */,
+			);
+			path = HBToolBox;
+			sourceTree = "<group>";
+		};
+		F7ADA71F225B3AA1000DE402 /* HBToolBoxLibs */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA720225B3AA1000DE402 /* Category */,
+				F7ADA733225B3AA1000DE402 /* Libs */,
+				F7ADA748225B3AA1000DE402 /* HBKit.h */,
+			);
+			path = HBToolBoxLibs;
+			sourceTree = "<group>";
+		};
+		F7ADA720225B3AA1000DE402 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA721225B3AA1000DE402 /* UIScrollView+HBExtension.h */,
+				F7ADA722225B3AA1000DE402 /* UIAlertController+HBExtension.m */,
+				F7ADA723225B3AA1000DE402 /* NSMutableAttributedString+HBExtention.h */,
+				F7ADA724225B3AA1000DE402 /* UIColor+HBColorExtension.h */,
+				F7ADA725225B3AA1000DE402 /* UIImage+HBExtension.m */,
+				F7ADA726225B3AA1000DE402 /* UIButton+HBExtension.m */,
+				F7ADA727225B3AA1000DE402 /* UIView+HBExtension.h */,
+				F7ADA728225B3AA1000DE402 /* NSString+HBPinyinString.m */,
+				F7ADA729225B3AA1000DE402 /* NSDate+HBDateExtension.h */,
+				F7ADA72A225B3AA1000DE402 /* UIAlertController+HBExtension.h */,
+				F7ADA72B225B3AA1000DE402 /* UIScrollView+HBExtension.m */,
+				F7ADA72C225B3AA1000DE402 /* UIImage+HBExtension.h */,
+				F7ADA72D225B3AA1000DE402 /* UIColor+HBColorExtension.m */,
+				F7ADA72E225B3AA1000DE402 /* NSMutableAttributedString+HBExtention.m */,
+				F7ADA72F225B3AA1000DE402 /* UIView+HBExtension.m */,
+				F7ADA730225B3AA1000DE402 /* UIButton+HBExtension.h */,
+				F7ADA731225B3AA1000DE402 /* NSDate+HBDateExtension.m */,
+				F7ADA732225B3AA1000DE402 /* NSString+HBPinyinString.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F7ADA733225B3AA1000DE402 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA734225B3AA1000DE402 /* HBDateModel.m */,
+				F7ADA735225B3AA1000DE402 /* Label */,
+				F7ADA73D225B3AA1000DE402 /* Button */,
+				F7ADA742225B3AA1000DE402 /* HBDateModel.h */,
+				F7ADA743225B3AA1000DE402 /* Snap */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		F7ADA735225B3AA1000DE402 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA736225B3AA1000DE402 /* HBAttributedLabelDefines.h */,
+				F7ADA737225B3AA1000DE402 /* HBAttributedLabelURL.h */,
+				F7ADA738225B3AA1000DE402 /* HBAttributedLabelAttachment.m */,
+				F7ADA739225B3AA1000DE402 /* HBAttributedLabel.h */,
+				F7ADA73A225B3AA1000DE402 /* HBAttributedLabelURL.m */,
+				F7ADA73B225B3AA1000DE402 /* HBAttributedLabel.m */,
+				F7ADA73C225B3AA1000DE402 /* HBAttributedLabelAttachment.h */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		F7ADA73D225B3AA1000DE402 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA73E225B3AA1000DE402 /* HBUIButton.h */,
+				F7ADA73F225B3AA1000DE402 /* HBButton.h */,
+				F7ADA740225B3AA1000DE402 /* HBUIButton.m */,
+				F7ADA741225B3AA1000DE402 /* HBButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		F7ADA743225B3AA1000DE402 /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADA744225B3AA1000DE402 /* HBSnapShot.h */,
+				F7ADA745225B3AA1000DE402 /* HBSnapShotView.h */,
+				F7ADA746225B3AA1000DE402 /* HBSnapShot.m */,
+				F7ADA747225B3AA1000DE402 /* HBSnapShotView.m */,
+			);
+			path = Snap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ADA705225B39E7000DE402 /* HBToolBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ADA71C225B39E8000DE402 /* Build configuration list for PBXNativeTarget "HBToolBox" */;
+			buildPhases = (
+				F7ADA702225B39E7000DE402 /* Sources */,
+				F7ADA703225B39E7000DE402 /* Frameworks */,
+				F7ADA704225B39E7000DE402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBToolBox;
+			productName = HBToolBox;
+			productReference = F7ADA706225B39E7000DE402 /* HBToolBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ADA6FE225B39E7000DE402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = DylanHu;
+				TargetAttributes = {
+					F7ADA705225B39E7000DE402 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = F7ADA701225B39E7000DE402 /* Build configuration list for PBXProject "HBToolBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7ADA6FD225B39E7000DE402;
+			productRefGroup = F7ADA707225B39E7000DE402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ADA705225B39E7000DE402 /* HBToolBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7ADA704225B39E7000DE402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADA716225B39E8000DE402 /* LaunchScreen.storyboard in Resources */,
+				F7ADA713225B39E8000DE402 /* Assets.xcassets in Resources */,
+				F7ADA711225B39E7000DE402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ADA702225B39E7000DE402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADA759225B3AA2000DE402 /* HBSnapShotView.m in Sources */,
+				F7ADA755225B3AA2000DE402 /* HBAttributedLabel.m in Sources */,
+				F7ADA750225B3AA2000DE402 /* UIView+HBExtension.m in Sources */,
+				F7ADA753225B3AA2000DE402 /* HBAttributedLabelAttachment.m in Sources */,
+				F7ADA757225B3AA2000DE402 /* HBButton.m in Sources */,
+				F7ADA70E225B39E7000DE402 /* ViewController.m in Sources */,
+				F7ADA719225B39E8000DE402 /* main.m in Sources */,
+				F7ADA754225B3AA2000DE402 /* HBAttributedLabelURL.m in Sources */,
+				F7ADA752225B3AA2000DE402 /* HBDateModel.m in Sources */,
+				F7ADA74E225B3AA2000DE402 /* UIColor+HBColorExtension.m in Sources */,
+				F7ADA756225B3AA2000DE402 /* HBUIButton.m in Sources */,
+				F7ADA749225B3AA2000DE402 /* UIAlertController+HBExtension.m in Sources */,
+				F7ADA70B225B39E7000DE402 /* AppDelegate.m in Sources */,
+				F7ADA74F225B3AA2000DE402 /* NSMutableAttributedString+HBExtention.m in Sources */,
+				F7ADA758225B3AA2000DE402 /* HBSnapShot.m in Sources */,
+				F7ADA74C225B3AA2000DE402 /* NSString+HBPinyinString.m in Sources */,
+				F7ADA74A225B3AA2000DE402 /* UIImage+HBExtension.m in Sources */,
+				F7ADA74B225B3AA2000DE402 /* UIButton+HBExtension.m in Sources */,
+				F7ADA751225B3AA2000DE402 /* NSDate+HBDateExtension.m in Sources */,
+				F7ADA74D225B3AA2000DE402 /* UIScrollView+HBExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7ADA70F225B39E7000DE402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ADA710225B39E7000DE402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7ADA714225B39E8000DE402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ADA715225B39E8000DE402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7ADA71A225B39E8000DE402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7ADA71B225B39E8000DE402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7ADA71D225B39E8000DE402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GACH34ZD46;
+				INFOPLIST_FILE = HBToolBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HBToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7ADA71E225B39E8000DE402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GACH34ZD46;
+				INFOPLIST_FILE = HBToolBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HBToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ADA701225B39E7000DE402 /* Build configuration list for PBXProject "HBToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ADA71A225B39E8000DE402 /* Debug */,
+				F7ADA71B225B39E8000DE402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ADA71C225B39E8000DE402 /* Build configuration list for PBXNativeTarget "HBToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ADA71D225B39E8000DE402 /* Debug */,
+				F7ADA71E225B39E8000DE402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ADA6FE225B39E7000DE402 /* Project object */;
+}
